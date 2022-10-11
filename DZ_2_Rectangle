@@ -1,0 +1,12 @@
+//Задание № 2
+public class Rectangle {
+    public static void main(String[] args) {
+
+        double width = 3.5; //ширина
+        double heigth = 5.5;//Высота
+        double s = width * heigth;//Площадь прямоугольника
+        double p = width + width + heigth + heigth;//Периметр
+
+        System.out.println("Площадь прямоугольника: " + s + "\nПериметр прямоугольника : " + p);
+    }
+}
