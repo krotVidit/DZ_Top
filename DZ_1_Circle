@@ -1,0 +1,13 @@
+// Задание № 1 ;
+public class Circle {
+    public static void main(String[] args) {
+
+        double r =5; //Радиус
+        double p = 3.14; //число пи
+        double r2 = Math.pow(5,2); // радиус в степени
+        double s = r2 * p; // Площадь
+        double c = 2 * p * r; //Длина круга
+
+        System.out.println("Площадь круга : " + s + "\nДлинна круга : " + c);
+    }
+}
