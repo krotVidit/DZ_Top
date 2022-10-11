@@ -1,0 +1,14 @@
+//Задание №3
+public class Stonk {
+    public static void main(String[] args) {
+
+        double s = 10000;//Сумма вклада
+        double p = 4; //годовой процент
+        double t = 730; //Количество дней
+        double k = 365; // Один год
+        double res = s*p*t/k/100; //процент полученный
+        double res2= res+s;//Сумма вклада с выгодой
+
+        System.out.println("Сумма на вкладе через 2 года: " + res2);
+    }
+}
